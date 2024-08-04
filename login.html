@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <title>Login</title>
+</head>
+<body>
+    
+    <div class="navbar"> <!--Cabeçalho do site-->
+
+        <div class="header-inner-content">
+
+            <a href="index.html">
+                <h1 class="logo">BLUE <span>STORE</span></h1>
+            </a>
+
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <li>Produtos</li>
+                    <li>Sobre</li>
+                    <li>Contato</li>
+                    <a href="login.html">
+                        <li>Conta</li>
+                    </a>
+                </ul>
+            </nav>
+            
+            <div class="nav-icon-container">
+                <a href="carrinho.html"><img src="IMGs/cart.png" class="cart-button"></a>
+                <img src="IMGs/menu.png" class="menu-button">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="Login">
+
+        <div class="Caixa">
+            
+            <h1>Login</h1>
+
+            <div class="Email">
+                <input type="email" placeholder="E-mail">
+            </div>
+
+            <div class="Senha">
+                <input type="password" placeholder="Senha">
+            </div>
+
+            <div class="Entrar">
+                <p>Ainda não tem uma conta? <a href="criar conta.html" class="criar-conta">Crie uma.</a></p>
+                <input type="submit" value="Entrar">
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="gray-background"> <!--Footer-->
+        <div class="page-inner-content footer-content">
+            <div class="donwload-options">
+                <p>Baixe nosso app</p>
+                <p>Baixe nosso app para Android e iOS</p>
+                <div>
+                    <img src="IMGs/play-store.png" alt="">
+                    <img src="IMGs/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="logo-footer">
+                <h1 class="logo">BLUE <span>STORE</span></h1>
+                <p>Nosso objetivo é ajudar pessoas comuns a se tornarem desenvolvedores Web Pro Max</p>
+            </div>
+
+            <div class="links-footer">
+                <h3>Links úteis</h3>
+                <ul>
+                    <li>Cupons</li>
+                    <li>Blog post</li>
+                    <li>Políticas</li>
+                    <li>Torne-se afiliado</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="page-inner-content"/>
+        <div class="page-inner-content copyright">
+            <p>Copyright 2024 - Eduardo Machado - Todos os Direitos Reservados</p>
+        </div>
+    </footer>
+
+    <!--Responsividade Java-->
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menuButton = document.querySelector(".menu-button");
+
+        menuButton.addEventListener('click', () => {
+            navbar.classList.toggle("show-menu");
+        })
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="styles/carrinho/carrinho.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>BlueStore | Ecommerce</title>
+    <link rel="stylesheet" href="styles/Produtos/produtos.css">
+</head>
+
+<body>
+
+    <div class="navbar"> <!--Cabeçalho do site-->
+
+        <div class="header-inner-content">
+
+            <a href="index.html">
+                <h1 class="logo">BLUE <span>STORE</span></h1>
+            </a>
+
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <li>Produtos</li>
+                    <li>Sobre</li>
+                    <li>Contato</li>
+                    <a href="login.html">
+                        <li>Conta</li>
+                    </a>
+                </ul>
+            </nav>
+
+            <div class="nav-icon-container">
+                <a href="carrinho.html"><img src="IMGs/cart.png" class="cart-button"></a>
+                <img src="IMGs/menu.png" class="menu-button">
+            </div>
+
+        </div>
+    </div>
+
+    <main>
+        <section>
+            <div class="container movie-product">
+                <div class="left-side">
+                    <div class="items">
+                        <div class="select-image">
+                            <img src="IMGs/products/RAIDER GE78 HX 13V/001.png">
+                        </div>
+
+                        <div class="thumbnails">
+                            <div class="thumbnail">
+                                <img src="IMGs/products/RAIDER GE78 HX 13V/002.png">
+                            </div>
+                            <div class="thumbnail">
+                                <img src="IMGs/products/RAIDER GE78 HX 13V/003.png">
+                            </div>
+                            <div class="thumbnail">
+                                <img src="IMGs/products/RAIDER GE78 HX 13V/004.png">
+                            </div>
+                            <div class="thumbnail">
+                                <img src="IMGs/products/RAIDER GE78 HX 13V/005.png">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="content">
+                        <h1>Notebook MSI Raider GE78 HX 13V</h1>
+                        <p>O céu é o limite. Inspirado pela descoberta do buraco negro Sagitário A, o Raider GE78 HX 13V
+                            mais uma vez torna o impossível possível. <br>
+                            Com tecnologias de ponta e estética de iluminação matricial, a série Raider GE chamará a
+                            atenção de todos imediatamente. Experimente o imenso poder de um devorador de estrelas.</p>
+
+                        <div class="prices">
+                            <span class="price">R$15.812,79</span>
+                            <span class="off"><s>R$16.999,00</s></span>
+                        </div>
+
+                        <div class="options">
+                            <div class="amount">
+                                <div class="qty">
+                                    <button onclick="decrementar()"><i class='bx bx-minus'></i></button>
+                                    <span id="contador">
+                                        0
+                                    </span>
+                                    <button onclick="incrementar()"><i class='bx bx-plus'></i></button>
+                                </div>
+
+
+                            </div>
+                            <a class="button" href="carrinho.html"><img src="IMGs/images/images/icon-cart.svg">Adicionar
+                                ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <div class="gray-background">
+            <div class="header-inner-content">
+                <div class="header-button-side exclusive-container">
+
+                    <div class="header-button-side-left">
+                        <p>O Notebook para jogos Raider GE78HX 13VH-080US foi projetado para atender aos requisitos de
+                            projetos multitarefa e jogos com uso intensivo de gráficos. <br>
+
+                            Possui processador Intel Core i9 13980HX e placa gráfica NVIDIA GeForce RTX 4080 para um
+                            desempenho perfeito. <br>
+
+                            Este Notebook possui um SSD NVMe de 2 TB para facilitar o armazenamento de arquivos grandes.
+                            Seu sistema operacional Windows 11 oferece uma experiência de usuário intuitiva. <br></p>
+                    </div>
+
+                    <div class="header-button-side-right">
+                        <img src="IMGs/products/RAIDER GE78 HX 13V/002.png">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="detalhe-produuto gradiente-background">
+                <h1 class="titulo-detalhe-produto">Especificações técnicas</h1>
+                <ul>
+
+                    <li>Tela: Painel QHD+ de 17" (2560 x 1600), 240 Hz, 100% DCI-P3, nível IPS
+
+                    <li>Placa de vídeo: NVIDIA® GeForce® RTX 4080 com 12 GB GDDR6 (Max TGP 175W - Boost Clock 2280MHz)
+
+                    <li>Processador: Intel® Raptor Lake i9-13980HX de 13ª geração, 24 núcleos - processador de 32
+                        threads, 2,2 GHzw
+
+                    <li>Sistema operacional: Windows® 11 Pró
+
+                    <li>Memória RAM: DDR5 5600 MHz de 64 GB (2 x 32 GB) - 2 slots de memória
+
+                    <li>Disco rígido: SSD M.2 PCIe NVMe Gen4 de 2 TB
+
+                    <li>Leitor de cartão: SD7.0
+
+                    <li>Câmera de vídeo: 1080p FHD
+
+                    <li>Rede: Killer E3100G; Killer WiFi 6E AX1690i;
+
+                    <li>Bluetooth: Bluetooth 5.3
+
+                    <li>Entrada/Saída
+                        <ul type="circle" style="position: relative; left: 17px;">
+                            <li>1 Tipo C (USB3.2 Gen2 / DP)
+                            <li>1 Tipo C (USB / DP / Thunderbolt 4)
+                            <li>1 Tipo C (USB3.2 Gen2 / DP)
+                            <li>2 USB 3.2 Gen2 tipo A
+                            <li>1 leitor de cartão expresso SD
+                            <li>1 (8K a 60 Hz / 4K a 120 Hz) HDMI
+                            <li>1 RJ45
+                            <li>1 conector combinado de entrada de microfone/saída de fone de ouvido (1/8")</li>
+                        </ul>
+
+                    <li>Áudio: 2 alto-falantes Dynaudio 2W; 1 Woofer de onda dupla de 4x 2W
+
+                    <li>Teclado e Touchpad: Steel Series per-Key RGB com chave Anti-Ghost (102 teclas); Multitoque
+
+                    <li>Bateria: 4 células (99,9 Wh) de íon de lítio
+
+                    <li>Dimensão: 14,97" x 11,73" x 1,13"
+
+                    <li>Peso: 3kg
+
+                </ul>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="gray-background">
+        <div class="page-inner-content footer-content">
+            <div class="donwload-options">
+                <p>Baixe nosso app</p>
+                <p>Baixe nosso app para Android e iOS</p>
+                <div>
+                    <img src="IMGs/play-store.png" alt="">
+                    <img src="IMGs/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="logo-footer">
+                <h1 class="logo">BLUE <span>STORE</span></h1>
+                <p>Nosso objetivo é ajudar pessoas comuns a se tornarem desenvolvedores Web Pro Max</p>
+            </div>
+
+            <div class="links-footer">
+                <h3>Links úteis</h3>
+                <ul>
+                    <li>Cupons</li>
+                    <li>Blog post</li>
+                    <li>Políticas</li>
+                    <li>Torne-se afiliado</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="page-inner-content" />
+        <div class="page-inner-content copyright">
+            <p>Copyright 2024 - Eduardo Machado - Todos os Direitos Reservados</p>
+        </div>
+    </footer>
+
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menuButton = document.querySelector(".menu-button");
+
+        menuButton.addEventListener('click', () => {
+            navbar.classList.toggle("show-menu");
+        })
+
+
+
+        let contador = document.getElementById("contador");
+        function incrementar() {
+            contador.innerHTML = parseInt(contador.innerText) + 1;
+        }
+        function decrementar() {
+            contador.innerHTML = parseInt(contador.innerText) - 1;
+        }
+    </script>
+
+</body>
+
+</html>

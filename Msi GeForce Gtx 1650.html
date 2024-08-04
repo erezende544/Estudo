@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="styles/carrinho/carrinho.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>BlueStore | Ecommerce</title>
+    <link rel="stylesheet" href="styles/Produtos/produtos.css">
+</head>
+
+<body>
+
+    <div class="navbar"> <!--Cabeçalho do site-->
+
+        <div class="header-inner-content">
+
+            <a href="index.html">
+                <h1 class="logo">BLUE <span>STORE</span></h1>
+            </a>
+
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <li>Produtos</li>
+                    <li>Sobre</li>
+                    <li>Contato</li>
+                    <a href="login.html">
+                        <li>Conta</li>
+                    </a>
+                </ul>
+            </nav>
+
+            <div class="nav-icon-container">
+                <a href="carrinho.html"><img src="IMGs/cart.png" class="cart-button"></a>
+                <img src="IMGs/menu.png" class="menu-button">
+            </div>
+
+        </div>
+    </div>
+
+    <main>
+        <section>
+            <div class="container movie-product">
+                <div class="left-side">
+                    <div class="items">
+                        <div class="select-image">
+                            <img src="IMGs/products/Msi GeForce Gtx 1650/001.png">
+                        </div>
+
+                        <div class="thumbnails">
+                            <div class="thumbnail">
+                                <img src="IMGs/products/Msi GeForce Gtx 1650/002.png">
+                            </div>
+                            <div class="thumbnail">
+                                <img src="IMGs/products/Msi GeForce Gtx 1650/003.png">
+                            </div>
+                            <div class="thumbnail">
+                                <img src="IMGs/products/Msi GeForce Gtx 1650/004.png">
+                            </div>
+                            <div class="thumbnail">
+                                <img src="IMGs/products/Msi GeForce Gtx 1650/005.png">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="content">
+                        <h1>MSI GeForce GTX 1650V</h1>
+                        <p>A MSI GeForce GTX 1650 oferece gráficos incrivelmente realistas e uma performance surpreendente, ideal para jogos e aplicações gráficas intensas. <br> Baseada na premiada arquitetura Turing da NVIDIA, esta placa de vídeo proporciona uma experiência de jogo imersiva e altamente eficiente. Com um sistema de resfriamento avançado, a MSI GTX 1650 mantém a temperatura sob controle, garantindo desempenho estável mesmo nas sessões de jogo mais intensas.</p>
+
+                        <div class="prices">
+                            <span class="price">R$930,00</span>
+                            <span class="off"><s>R$1.179,00</s></span>
+                        </div>
+
+                        <div class="options">
+                            <div class="amount">
+                                <div class="qty">
+                                    <button onclick="decrementar()"><i class='bx bx-minus'></i></button>
+                                    <span id="contador">
+                                        0
+                                    </span>
+                                    <button onclick="incrementar()"><i class='bx bx-plus'></i></button>
+                                </div>
+                              
+
+                            </div>
+                            <a class="button" href="carrinho.html"><img src="IMGs/images/images/icon-cart.svg">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <div class="gray-background">
+            <div class="header-inner-content">
+                <div class="header-button-side exclusive-container">
+
+                    <div class="header-button-side-left">
+                        <p>Seu design compacto facilita a instalação em praticamente qualquer gabinete, sem comprometer a potência necessária para jogos modernos e softwares gráficos. Equipada com 4GB de memória GDDR5, a GTX 1650 proporciona alta velocidade e desempenho, permitindo a execução suave de jogos e aplicativos gráficos. Desfrute de gráficos nítidos e detalhados com suporte a DirectX 12, que maximiza os efeitos visuais e a jogabilidade.<br>
+                        <br>A placa possui diversas opções de conectividade, incluindo HDMI e DisplayPort, facilitando a conexão com múltiplos monitores e dispositivos. Além disso, a eficiência energética da GTX 1650 ajuda a reduzir o consumo de energia, garantindo um desempenho sustentável e economizando na sua conta de luz. Se você é um gamer casual ou hardcore, a MSI GeForce GTX 1650 é a escolha perfeita para elevar sua experiência de jogo a um novo patamar.</p>
+                    </div>
+
+                    <div class="header-button-side-right">
+                        <img src="IMGs/products/Msi GeForce Gtx 1650/002.png">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="detalhe-produuto gradiente-background">
+                <h1 class="titulo-detalhe-produto">Especificações técnicas</h1>
+                <ul>
+                    <li>Arquitetura GPU: NVIDIA Turing</li>
+                    <li>Memória: 4GB GDDR5</li>
+                    <li>Clock Base: 1485 MHz</li>
+                    <li>Clock Boost: 1665 MHz</li>
+                    <li>Cuda Cores: 896</li>
+                    <li>Interface de Memória: 128-bit</li>
+                    <li>Velocidade da Memória: 8 Gbps</li>
+                    <li>Largura de Banda da Memória: 128 GB/s</li>
+                    <li>Interface: PCI Express 3.0 x16</li>
+                    <li>Conectores de Vídeo:
+                        <ul type="circle" style="position: relative; left: 17px;">
+                            <li>1x DisplayPort 1.4</li>
+                            <li>1x HDMI 2.0b</li>
+                            <li>1x DVI-D</li>
+                        </ul>
+                    </li>
+                    <li>Suporte a Resolução Máxima: Digital: 7680x4320</li>
+                    <li>Tecnologias Suportadas:
+                        <ul type="circle" style="position: relative; left: 17px;">
+                            <li>DirectX 12</li>
+                            <li>OpenGL 4.6</li>
+                            <li>NVIDIA Ansel</li>
+                            <li>NVIDIA G-SYNC</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="gray-background">
+        <div class="page-inner-content footer-content">
+            <div class="donwload-options">
+                <p>Baixe nosso app</p>
+                <p>Baixe nosso app para Android e iOS</p>
+                <div>
+                    <img src="IMGs/play-store.png" alt="">
+                    <img src="IMGs/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="logo-footer">
+                <h1 class="logo">BLUE <span>STORE</span></h1>
+                <p>Nosso objetivo é ajudar pessoas comuns a se tornarem desenvolvedores Web Pro Max</p>
+            </div>
+
+            <div class="links-footer">
+                <h3>Links úteis</h3>
+                <ul>
+                    <li>Cupons</li>
+                    <li>Blog post</li>
+                    <li>Políticas</li>
+                    <li>Torne-se afiliado</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="page-inner-content" />
+        <div class="page-inner-content copyright">
+            <p>Copyright 2024 - Eduardo Machado - Todos os Direitos Reservados</p>
+        </div>
+    </footer>
+
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menuButton = document.querySelector(".menu-button");
+
+        menuButton.addEventListener('click', () => {
+            navbar.classList.toggle("show-menu");
+        })
+
+
+
+        let contador = document.getElementById("contador");
+        function incrementar() {
+            contador.innerHTML = parseInt(contador.innerText) + 1;
+        }
+        function decrementar() {
+            contador.innerHTML = parseInt(contador.innerText) - 1;
+        }
+    </script>
+
+</body>
+
+</html>

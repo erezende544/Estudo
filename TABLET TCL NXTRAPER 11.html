@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="styles/carrinho/carrinho.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>BlueStore | Ecommerce</title>
+    <link rel="stylesheet" href="styles/Produtos/produtos.css">
+</head>
+
+<body>
+
+    <div class="navbar"> <!--Cabeçalho do site-->
+
+        <div class="header-inner-content">
+
+            <a href="index.html">
+                <h1 class="logo">BLUE <span>STORE</span></h1>
+            </a>
+
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <li>Produtos</li>
+                    <li>Sobre</li>
+                    <li>Contato</li>
+                    <a href="login.html">
+                        <li>Conta</li>
+                    </a>
+                </ul>
+            </nav>
+
+            <div class="nav-icon-container">
+                <a href="carrinho.html"><img src="IMGs/cart.png" class="cart-button"></a>
+                <img src="IMGs/menu.png" class="menu-button">
+            </div>
+
+        </div>
+    </div>
+
+    <main>
+        <section>
+            <div class="container movie-product">
+                <div class="left-side">
+                    <div class="items">
+                        <div class="select-image">
+                            <img src="IMGs/products/TCL NXTPAPER 11/001.png">
+                        </div>
+
+                        <div class="thumbnails">
+                            <div class="thumbnail">
+                                <img src="IMGs/products/TCL NXTPAPER 11/002.png">
+                            </div>
+                            <div class="thumbnail">
+                                <img src="IMGs/products/TCL NXTPAPER 11/003.png">
+                            </div>
+                            <div class="thumbnail">
+                                <img src="IMGs/products/TCL NXTPAPER 11/004.png">
+                            </div>
+                            <div class="thumbnail">
+                                <img src="IMGs/products/TCL NXTPAPER 11/005.png">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="content">
+                        <h1>Tablet TCL NXTPAPER 11</h1>
+                        <p>Liberdade de ler como se fosse papel! Visualização de cores vivas e intensas em uma tela
+                            dinâmica semelhante a papel que é 150% mais iluminado do que a geração anterior. <br>A nova
+                            tecnologia visual NXTPAPER 2.0 impulsionada pela inovação confere uma sensação de
+                            visualização de livro eletrônico com luminosidade que não fere os olhos e tons de cores
+                            harmoniosos.</p>
+
+                        <div class="prices">
+                            <span class="price">R$1.656,99</span>
+                            <span class="off"><s>R$3.058,00</s></span>
+                        </div>
+
+                        <div class="options">
+                            <div class="amount">
+                                <div class="qty">
+                                    <button onclick="decrementar()"><i class='bx bx-minus'></i></button>
+                                    <span id="contador">
+                                        0
+                                    </span>
+                                    <button onclick="incrementar()"><i class='bx bx-plus'></i></button>
+                                </div>
+
+
+                            </div>
+                            <a class="button" href="carrinho.html"><img src="IMGs/images/images/icon-cart.svg">Adicionar
+                                ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <div class="gray-background">
+            <div class="header-inner-content">
+                <div class="header-button-side exclusive-container">
+
+                    <div class="header-button-side-left">
+                        <p>O TCL Nxtpaper 11 é um tablet inovador projetado para proporcionar uma experiência de leitura
+                            e multimídia excepcional. Equipado com uma tela de 10,98 polegadas com tecnologia NXTPAPER,
+                            este dispositivo oferece uma visualização confortável que reduz a fadiga ocular, tornando-o
+                            ideal para leitura prolongada e uso diário. A tela anti-reflexo garante uma visualização
+                            nítida mesmo sob luz intensa, e a tecnologia de baixa emissão de luz azul protege os olhos,
+                            mantendo as cores vivas e naturais.<br><br>
+
+                            O tablet é alimentado por um processador octa-core eficiente, proporcionando um desempenho
+                            suave e rápido para multitarefas, navegação na web e aplicativos de mídia. Com 4GB de RAM e
+                            64GB de armazenamento interno, expansível via cartão microSD, há espaço suficiente para
+                            armazenar todos os seus arquivos, aplicativos e mídia.<br><br>
+
+                            A bateria de longa duração de 8000mAh garante horas de uso contínuo, ideal para trabalho,
+                            estudo e entretenimento. O TCL Nxtpaper 11 também vem equipado com câmeras de alta
+                            qualidade, sendo uma traseira de 8MP e uma frontal de 5MP, perfeitas para videochamadas e
+                            capturas de momentos importantes.<br><br>
+
+                            Com um design elegante e leve, o TCL Nxtpaper 11 é fácil de transportar e se adapta
+                            perfeitamente ao seu estilo de vida, seja para uso profissional, educacional ou de lazer.
+                        </p>
+                    </div>
+
+                    <div class="header-button-side-right">
+                        <img src="IMGs/products/TCL NXTPAPER 11/001 transparente.png">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="detalhe-produuto gradiente-background">
+                <h1 class="titulo-detalhe-produto">Especificações técnicas</h1>
+                <ul>
+                    <li>Tela:
+                        
+                        <ul type="circle" style="position: relative; left: 17px;">
+                            <li>Tamanho: 10,98 polegadas
+                            <li>Resolução: 2000 x 1200 pixels
+                            <li>Tecnologia: NXTPAPER (tela refletiva e anti-reflexo)
+                        </ul>
+
+                    <li>Processador:
+                        <ul type="circle" style="position: relative; left: 17px;">
+                            <li>Tipo: Octa-core
+                            <li>Chipset: MediaTek Helio P60T
+                        </ul>
+                        
+                    <li>Memória:
+
+                        <ul type="circle" style="position: relative; left: 17px;">
+                            <li>RAM: 4GB
+                            <li>Armazenamento Interno: 64GB
+                            <li>Expansão de Armazenamento: Suporta cartão microSD de até 256GB
+                        </ul>
+
+                    <li>Sistema Operacional:
+                        <ul type="circle" style="position: relative; left: 17px;">
+                            <li>Android 11
+                        </ul>
+                    
+                    <li>Câmeras:
+                        <ul type="circle" style="position: relative; left: 17px;">
+                            <li>Traseira: 8MP
+                            <li>Frontal: 5MP
+                        </ul>
+
+                    <li>Bateria:
+
+                        <ul type="circle" style="position: relative; left: 17px;">
+                            <li>Capacidade: 8000mAh
+                            <li>Tipo: Li-Po
+                        </ul>
+
+                    <li>Conectividade:
+
+                        <ul type="circle" style="position: relative; left: 17px;">
+                            <li>Wi-Fi 802.11 a/b/g/n/ac
+                            <li>Bluetooth 5.0
+                            <li>USB Type-C
+                        </ul>
+
+                    <li>Áudio:
+                        <ul type="circle" style="position: relative; left: 17px;">
+                            <li>Alto-falantes estéreo
+                        </ul>
+
+                    <li>Dimensões e Peso:
+
+                        <ul type="circle" style="position: relative; left: 17px;">
+                            <li>Dimensões: 203,5 x 154,8 x 6,9 mm
+                            <li>Peso: 450 g
+                        </ul>
+
+                    <li>Outros Recursos:
+
+                        <ul type="circle" style="position: relative; left: 17px;">
+                            <li>Tecnologia de baixa emissão de luz azul
+                            <li>Tela anti-reflexo
+                            <li>Suporte a caneta stylus (vendida separadamente)
+                        </ul>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="gray-background">
+        <div class="page-inner-content footer-content">
+            <div class="donwload-options">
+                <p>Baixe nosso app</p>
+                <p>Baixe nosso app para Android e iOS</p>
+                <div>
+                    <img src="IMGs/play-store.png" alt="">
+                    <img src="IMGs/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="logo-footer">
+                <h1 class="logo">BLUE <span>STORE</span></h1>
+                <p>Nosso objetivo é ajudar pessoas comuns a se tornarem desenvolvedores Web Pro Max</p>
+            </div>
+
+            <div class="links-footer">
+                <h3>Links úteis</h3>
+                <ul>
+                    <li>Cupons</li>
+                    <li>Blog post</li>
+                    <li>Políticas</li>
+                    <li>Torne-se afiliado</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="page-inner-content" />
+        <div class="page-inner-content copyright">
+            <p>Copyright 2024 - Eduardo Machado - Todos os Direitos Reservados</p>
+        </div>
+    </footer>
+
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menuButton = document.querySelector(".menu-button");
+
+        menuButton.addEventListener('click', () => {
+            navbar.classList.toggle("show-menu");
+        })
+
+
+
+        let contador = document.getElementById("contador");
+        function incrementar() {
+            contador.innerHTML = parseInt(contador.innerText) + 1;
+        }
+        function decrementar() {
+            contador.innerHTML = parseInt(contador.innerText) - 1;
+        }
+    </script>
+
+</body>
+
+</html>
